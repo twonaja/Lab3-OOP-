@@ -8,6 +8,7 @@ public:
     MyString(const char* pStr = "\0");
     MyString(const MyString& tmp);
     ~MyString();
+    MyString& operator=(const MyString& rObj2);
 
     void SetNewString(const char* newStr);
 };
